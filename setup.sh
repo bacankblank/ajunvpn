@@ -17,7 +17,7 @@ echo -e "${green}Permission Accepted...${NC}"
 else
 echo -e "${red}Permission Denied!${NC}";
 echo "Please Contact Admin"
-echo "Telegram t.me/ajunvpn"
+echo "Telegram t.me/bokirtampan"
 rm -f setup.sh
 exit 0
 fi
@@ -116,9 +116,10 @@ echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   - Dev/Main                : Ajun VPN Project"  | tee -a log-install.txt
 echo "   - Telegram                : T.me/ajunvpn"  | tee -a log-install.txt
-echo "   - Instagram               : -"  | tee -a log-install.txt
+echo "   - Instagram               : @bacankblank"  | tee -a log-install.txt
 echo "   - Whatsapp                : 083856813425"  | tee -a log-install.txt
-echo "------------------Script Created By AJUN VPN PROJCT-----------------" | tee -a log-install.txt
+echo "   - Facebook                : https://www.facebook.com/bacankblank" | tee -a log-install.txt
+echo "------------------Script Created By AjunVPN Project-----------------" | tee -a log-install.txt
 echo ""
 echo " Reboot 15 Sec"
 sleep 15
