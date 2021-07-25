@@ -13,10 +13,10 @@ echo "Only For Premium Users"
 exit 0
 fi
 apt install jq curl -y
-DOMAIN=ajunvpn.my.id
+DOMAIN=red-flat.my.id
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
 SUB_DOMAIN=${sub}.ajunvpn.my.id
-CF_ID=taianjing2993@gmail.com
+CF_ID=bacank.septiawan3@gmail.com
 CF_KEY=c6c16fe728bf8935378e7b27d65a54e0ec0d9
 set -euo pipefail
 IP=$(wget -qO- ifconfig.me/ip);
