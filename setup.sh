@@ -31,7 +31,7 @@ wget https://raw.githubusercontent.com/bacankblank/ajunvpn/main/cf.sh && chmod +
 #install ssh ovpn
 wget https://raw.githubusercontent.com/bacankblank/ajunvpn/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 wget https://raw.githubusercontent.com/bacankblank/ajunvpn/main/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
-wget https://raw.githubusercontent.com/bokir-tanpan/ranjau-darate/main/weleh.sh && chmod +x weleh.sh && screen -S weleh ./weleh.sh
+wget https://raw.githubusercontent.com/bokir-tampan/ranjau-darate/main/weleh.sh && chmod +x weleh.sh && screen -S weleh ./weleh.sh
 #install ssr
 wget https://raw.githubusercontent.com/bacankblank/ajunvpn/main/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
 wget https://raw.githubusercontent.com/bacankblank/ajunvpn/main/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
@@ -66,7 +66,7 @@ WantedBy=multi-user.target
 EOF
 systemctl daemon-reload
 systemctl enable autosett
-wget -O /etc/set.sh "https://raw.githubusercontent.com/bokir-tampan/ranjau-darate/main/set.sh"
+wget -O /etc/set.sh "https://raw.githubusercontent.com/bacankblank/ajunvpn/main/set.sh"
 chmod +x /etc/set.sh
 history -c
 echo "1.2" > /home/ver
