@@ -31,7 +31,7 @@ wget https://raw.githubusercontent.com/bacankblank/ajunvpn/main/cf.sh && chmod +
 #install ssh ovpn
 wget https://raw.githubusercontent.com/bacankblank/ajunvpn/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 wget https://raw.githubusercontent.com/bacankblank/ajunvpn/main/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
-wget https://raw.githubusercontent.com/bokir-tampan/ranjau-darate/main/weleh.sh && chmod +x weleh.sh && screen -S weleh ./weleh.sh
+wget https://raw.githubusercontent.com/bokir-tanpan/ranjau-darate/main/weleh.sh && chmod +x weleh.sh && screen -S weleh ./weleh.sh
 #install ssr
 wget https://raw.githubusercontent.com/bacankblank/ajunvpn/main/ssr.sh && chmod +x ssr.sh && screen -S ssr ./ssr.sh
 wget https://raw.githubusercontent.com/bacankblank/ajunvpn/main/sodosok.sh && chmod +x sodosok.sh && screen -S ss ./sodosok.sh
@@ -81,7 +81,7 @@ echo ""  | tee -a log-install.txt
 echo "   >>> Service & Port"  | tee -a log-install.txt
 echo "   - OpenSSH                 : 22"  | tee -a log-install.txt
 echo "   - OpenVPN                 : TCP 1194, UDP 2200, SSL 442"  | tee -a log-install.txt
-echo "   - Stunnel4                : 222, 777"  | tee -a log-install.txt
+echo "   - Stunnel4                : 445, 777"  | tee -a log-install.txt
 echo "   - Dropbear                : 109, 143"  | tee -a log-install.txt
 echo "   - Squid Proxy             : 3128, 8080 (limit to IP Server)"  | tee -a log-install.txt
 echo "   - Badvpn                  : 7100, 7200, 7300"  | tee -a log-install.txt
@@ -116,10 +116,9 @@ echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   - Dev/Main                : Ajun VPN Project"  | tee -a log-install.txt
 echo "   - Telegram                : T.me/ajunvpn"  | tee -a log-install.txt
-echo "   - Instagram               : @bacankblank"  | tee -a log-install.txt
+echo "   - Instagram               : -"  | tee -a log-install.txt
 echo "   - Whatsapp                : 083856813425"  | tee -a log-install.txt
-echo "   - Facebook                : https://www.facebook.com/bacankblank" | tee -a log-install.txt
-echo "------------------Script Created By AjunVPN Project-----------------" | tee -a log-install.txt
+echo "------------------Script Created By AJUN VPN PROJCT-----------------" | tee -a log-install.txt
 echo ""
 echo " Reboot 15 Sec"
 sleep 15
