@@ -58,7 +58,7 @@ echo -e   "  \e[1;32m-----------------------------------------------------------
 echo -e   "   x)   Exit" | lolcat
 echo -e   "  \e[1;32m------------------------------------------------------------\e[m" | lolcat
 echo -e   ""
-read -p "     Silahkan Pilih nomor [1-8 or x] :  " menu
+read -p "     Silahkan Pilih Nomor [1-24 or x] :  " menu
 echo -e   ""
 case $menu in
 1)
