@@ -32,7 +32,7 @@ chmod +x /usr/local/bin/edu-ovpn
 # Installing Service
 cat > /etc/systemd/system/edu-ovpn.service << END
 [Unit]
-Description=Python Edu Ovpn By BokirTampan
+Description=Python Edu Ovpn By AjunVPN
 Documentation=https://red-flat.my.id
 After=network.target nss-lookup.target
 
@@ -109,7 +109,7 @@ sed -i 's/AcceptEnv/#AcceptEnv/g' /etc/ssh/sshd_config
 apt-get --reinstall --fix-missing install -y bzip2 gzip coreutils wget screen rsyslog iftop htop net-tools zip unzip wget net-tools curl nano sed screen gnupg gnupg1 bc apt-transport-https build-essential dirmngr libxml-parser-perl neofetch git lsof
 echo "clear" >> .profile
 echo "neofetch" >> .profile
-echo "echo by BokirTampan" >> .profile
+echo "echo by AjunVPN" >> .profile
 echo "echo Ketik menu Untuk Melihat Options" >> .profile
 
 # install webserver
