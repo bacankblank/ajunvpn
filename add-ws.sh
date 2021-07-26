@@ -4,6 +4,7 @@ green='\e[0;32m'
 NC='\e[0m'
 MYIP=$(wget -qO- ifconfig.me/ip);
 ISP=$(curl -s ipinfo.io/org | cut -d " " -f 2-10 )
+City=$(curl -s ipinfo.io/city)
 echo "Checking VPS"
 IZIN=$( curl http://lnd.red-flat.my.id:81/shahwjusisjsnajakajannaiajanajam | grep $MYIP )
 if [ $MYIP = $IZIN ]; then
@@ -82,6 +83,7 @@ echo -e "==========-V2RAY/VMESS-=========="
 echo -e "Remarks        : ${user}"
 echo -e "Domain         : ${domain}"
 echo -e "ISP            : ${ISP}"
+echo -e "City           : ${City}"
 echo -e "port TLS       : ${tls}"
 echo -e "port none TLS  : ${none}"
 echo -e "id             : ${uuid}"
