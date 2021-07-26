@@ -53,8 +53,8 @@ echo -e "SSH & OpenVPN Account Info"
 echo -e "Username       : $Login "
 echo -e "Password       : $Pass"
 echo -e "==============================="
-echo -e "ISP            :$ISP
-echo -e "City           :$CITY
+echo -e "ISP            :$ISP "
+echo -e "City           :$CITY "
 echo -e "Host           : $IP"
 echo -e "OpenSSH        : 22"
 echo -e "Dropbear       : 109, 143"
