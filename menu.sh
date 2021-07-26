@@ -52,13 +52,13 @@ echo -e   "   19\e[1;33m)\e[m  Speedtest VPS"
 echo -e   "   20\e[1;33m)\e[m  Information Display System" 
 echo -e   "   21\e[1;33m)\e[m  Info Script Auto Install"
 echo -e   "   22\e[1;33m)\e[m  Install BBR"
-echo -e   "   26\e[1;33m)\e[m  Clear log"
-echo -e   "   27\e[1;33m)\e[m  Auto Reboot"
+echo -e   "   23\e[1;33m)\e[m  Clear log"
+echo -e   "   24\e[1;33m)\e[m  Auto Reboot"
 echo -e   "  \e[1;32m------------------------------------------------------------\e[m" | lolcat
 echo -e   "   x)   Exit" | lolcat
 echo -e   "  \e[1;32m------------------------------------------------------------\e[m" | lolcat
 echo -e   ""
-read -p "     Select From Options [1-8 or x] :  " menu
+read -p "     Silahkan Pilih nomor [1-8 or x] :  " menu
 echo -e   ""
 case $menu in
 1)
@@ -128,25 +128,16 @@ about
 bbr
 ;;
 23)
-cff
-;;
-24)
-cfd
-;;
-25)
-cfh
-;;
-26)
 clear-log
 ;;
-27)
+24)
 autoreboot
 ;;
 x)
 exit
 ;;
 *)
-echo  "Please enter an correct number"
+echo  "Nomor yang anda masukan salah"
 ;;
 esac
 
