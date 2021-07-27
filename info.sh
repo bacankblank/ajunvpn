@@ -3,4 +3,4 @@
 clear
 neofetch
 cat /root/log-install.txt
-echo "BokirTampan"
+echo "AjunVPN"
