@@ -49,7 +49,7 @@ cat>/etc/v2ray/$user-tls.json<<EOF
       "id": "${uuid}",
       "aid": "2",
       "net": "ws",
-      "path": "/ajunvpn_stores",
+      "path": "/v2ray",
       "type": "none",
       "host": "",
       "tls": "tls"
@@ -64,7 +64,7 @@ cat>/etc/v2ray/$user-none.json<<EOF
       "id": "${uuid}",
       "aid": "2",
       "net": "ws",
-      "path": "/ajunvpn_stores",
+      "path": "/v2ray",
       "type": "none",
       "host": "",
       "tls": "none"
@@ -90,7 +90,7 @@ echo -e "id             : ${uuid}"
 echo -e "alterId        : 2"
 echo -e "Security       : auto"
 echo -e "network        : ws"
-echo -e "path           : /ajunvpn_stores"
+echo -e "path           : /v2ray"
 echo -e "================================="
 echo -e "link TLS       : ${vmesslink1}"
 echo -e "================================="
