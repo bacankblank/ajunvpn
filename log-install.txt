@@ -5,13 +5,12 @@
    >>> Service & Port
    - OpenSSH                 : 22
    - OpenVPN                 : TCP 1194, UDP 2200, SSL 442
-   - Stunnel4                : 222, 777
+   - Stunnel4                : 443, 777
    - Dropbear                : 109, 143
    - Squid Proxy             : 3128, 8080 (limit to IP Server)
    - Badvpn                  : 7100, 7200, 7300
    - Port WS HTTP            : 2095
    - Port WS OVPN            : 2082
-   - Port WS SSL             : 443
    - Nginx                   : 81
    - Wireguard               : 7070
    - L2TP/IPSEC VPN          : 1701
@@ -43,7 +42,7 @@
 
    - Dev/Main                : AJUN VPN PROJECT
    - Telegram                : T.me/ajunvpn
-   - Instagram               : ------------
-   - Whatsapp                : 083856813425
+   - Instagram               : @bacankblank
+   - Whatsapp                : 083898471056
    - Facebook                : https://www.facebook.com/bacankblank
 ------------------Script Created By AJUN VPN PROJECT-----------------
