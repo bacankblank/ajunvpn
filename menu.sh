@@ -52,13 +52,16 @@ echo -e   "   19\e[1;33m)\e[m  Speedtest VPS"
 echo -e   "   20\e[1;33m)\e[m  Information Display System" 
 echo -e   "   21\e[1;33m)\e[m  Info Script Auto Install"
 echo -e   "   22\e[1;33m)\e[m  Install BBR"
-echo -e   "   23\e[1;33m)\e[m  Clear log"
-echo -e   "   24\e[1;33m)\e[m  Auto Reboot"
+echo -e   "   23\e[1;33m)\e[m  Add ID Cloudflare"
+echo -e   "   24\e[1;33m)\e[m  Cloudflare Add-Ons"
+echo -e   "   25\e[1;33m)\e[m  Pointing BUG"
+echo -e   "   26\e[1;33m)\e[m  Clear log"
+echo -e   "   27\e[1;33m)\e[m  Auto Reboot"
 echo -e   "  \e[1;32m------------------------------------------------------------\e[m" | lolcat
 echo -e   "   x)   Exit" | lolcat
 echo -e   "  \e[1;32m------------------------------------------------------------\e[m" | lolcat
 echo -e   ""
-read -p "     Silahkan Pilih Nomor [1-24 or x] :  " menu
+read -p "     Select From Options [1-9 or x] :  " menu
 echo -e   ""
 case $menu in
 1)
@@ -128,16 +131,25 @@ about
 bbr
 ;;
 23)
-clear-log
+cff
 ;;
 24)
+cfd
+;;
+25)
+cfh
+;;
+26)
+clear-log
+;;
+27)
 autoreboot
 ;;
 x)
 exit
 ;;
 *)
-echo  "Nomor yang anda masukan salah"
+echo  "Please enter an correct number"
 ;;
 esac
 
