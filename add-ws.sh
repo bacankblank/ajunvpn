@@ -51,7 +51,7 @@ cat>/etc/v2ray/$user-tls.json<<EOF
       "net": "ws",
       "path": "/v2ray",
       "type": "none",
-      "host": "",
+      "host": "bug.com",
       "tls": "tls"
 }
 EOF
@@ -66,7 +66,7 @@ cat>/etc/v2ray/$user-none.json<<EOF
       "net": "ws",
       "path": "/v2ray",
       "type": "none",
-      "host": "",
+      "host": "bug.com",
       "tls": "none"
 }
 EOF
