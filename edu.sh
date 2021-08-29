@@ -9,8 +9,8 @@ chmod +x /usr/local/bin/edu-ssl
 # Installing Service
 cat > /etc/systemd/system/edu-ssl.service << END
 [Unit]
-Description=Python Edu ssl By bokirtampan
-Documentation=https://bokirtampan.xyz
+Description=Python Edu ssl By AjunVPN
+Documentation=https://ajunvpn.my.id
 After=network.target nss-lookup.target
 
 [Service]
