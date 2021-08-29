@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# By Horasss
+# By AjunVPN
 # ==================================================
 
 # initialisasi var
