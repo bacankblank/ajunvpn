@@ -81,7 +81,7 @@ echo ""  | tee -a log-install.txt
 echo "   >>> Service & Port"  | tee -a log-install.txt
 echo "   - OpenSSH                 : 22"  | tee -a log-install.txt
 echo "   - OpenVPN                 : TCP 1194, UDP 2200, SSL 442"  | tee -a log-install.txt
-echo "   - Stunnel4                : 222, 777"  | tee -a log-install.txt
+echo "   - Stunnel4                : 443, 777"  | tee -a log-install.txt
 echo "   - Dropbear                : 109, 143"  | tee -a log-install.txt
 echo "   - Squid Proxy             : 3128, 8080 (limit to IP Server)"  | tee -a log-install.txt
 echo "   - Badvpn                  : 7100, 7200, 7300"  | tee -a log-install.txt
@@ -116,8 +116,8 @@ echo "   - Installation Log --> /root/log-install.txt"  | tee -a log-install.txt
 echo ""  | tee -a log-install.txt
 echo "   - Dev/Main                : Ajun VPN Project"  | tee -a log-install.txt
 echo "   - Telegram                : T.me/ajunvpn"  | tee -a log-install.txt
-echo "   - Instagram               : -------"  | tee -a log-install.txt
-echo "   - Whatsapp                : 083856813425"  | tee -a log-install.txt
+echo "   - Instagram               : @bacankblank"  | tee -a log-install.txt
+echo "   - Whatsapp                : wa.me/+6283898471056"  | tee -a log-install.txt
 echo "------------------Script Created By AJUN VPN Stores-----------------" | tee -a log-install.txt
 echo ""
 echo " Reboot 15 Sec"
