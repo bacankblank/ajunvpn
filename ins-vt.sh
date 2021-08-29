@@ -60,7 +60,7 @@ cat> /etc/v2ray/config.json << END
         "wsSettings": {
           "path": "/v2ray",
           "headers": {
-            "Host": ""
+            "Host": "bug.com"
           }
          },
         "quicSettings": {},
@@ -148,7 +148,7 @@ cat> /etc/v2ray/none.json << END
         "wsSettings": {
           "path": "/v2ray",
           "headers": {
-            "Host": ""
+            "Host": "bug.com"
           }
          },
         "quicSettings": {},
@@ -245,7 +245,7 @@ cat> /etc/v2ray/vless.json << END
         "wsSettings": {
           "path": "/v2ray",
           "headers": {
-            "Host": ""
+            "Host": "bug.com"
           }
          },
         "quicSettings": {},
@@ -332,7 +332,7 @@ cat> /etc/v2ray/vnone.json << END
         "wsSettings": {
           "path": "/v2ray",
           "headers": {
-            "Host": ""
+            "Host": "bug.com"
           }
          },
         "quicSettings": {},
