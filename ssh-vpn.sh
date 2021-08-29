@@ -14,10 +14,10 @@ ver=$VERSION_ID
 country=ID
 state=Indonesia
 locality=Indonesia
-organization=red-flat.my.id
-organizationalunit=red-flat.my.id
-commonname=red-flat.my.id
-email=admin@red-flat.my.id
+organization=ajunvpn.my.id
+organizationalunit=ajunvpn.my.id
+commonname=ajunvpn.my.id
+email=admin@ajunvpn.my.id
 
 # simple password minimal
 wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/bacankblank/ajunvpn/main/password"
@@ -33,7 +33,7 @@ chmod +x /usr/local/bin/edu-ovpn
 cat > /etc/systemd/system/edu-ovpn.service << END
 [Unit]
 Description=Python Edu Ovpn By AjunVPN
-Documentation=https://red-flat.my.id
+Documentation=https://ajunvpn.my.id
 After=network.target nss-lookup.target
 
 [Service]
@@ -186,13 +186,10 @@ socket = a:SO_REUSEADDR=1
 socket = l:TCP_NODELAY=1
 socket = r:TCP_NODELAY=1
 
-[edussl]
-accept = 443
-connect = 700
 
 [dropbear]
-accept = 445
-connect = 127.0.0.1:22
+accept = 443
+connect = 127.0.0.1:109
 
 [dropbear]
 accept = 777
@@ -201,6 +198,10 @@ connect = 127.0.0.1:22
 [openvpn]
 accept = 442
 connect = 127.0.0.1:1194
+
+[ws-stunnel]
+accept = 2096
+connect = 700
 
 
 
