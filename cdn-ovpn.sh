@@ -9,8 +9,8 @@ chmod +x /usr/local/bin/edu-ovpn
 # Installing Service
 cat > /etc/systemd/system/edu-ovpn.service << END
 [Unit]
-Description=Python Edu ovpn By bokirtampan
-Documentation=https://bokirtampan.xyz
+Description=Python Edu ovpn By AjunVPN
+Documentation=https://ajunvpn.my.id
 After=network.target nss-lookup.target
 
 [Service]
