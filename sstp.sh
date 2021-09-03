@@ -25,10 +25,10 @@ touch /var/lib/premium-script/data-user-sstp
 country=ID
 state=Indonesia
 locality=Indonesia
-organization=www.red-flat.my.id
-organizationalunit=www.red-flat.my.id
-commonname=www.red-flat.my.id
-email=admin@red-flat.my.id
+organization=www.ajunvpn.my.id
+organizationalunit=www.ajunvpn.my.id
+commonname=www.ajunvpn.my.id
+email=admin@ajunvpn.my.id
 
 #install sstp
 apt-get install -y build-essential cmake gcc linux-headers-`uname -r` git libpcre3-dev libssl-dev liblua5.1-0-dev ppp
