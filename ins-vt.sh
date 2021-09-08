@@ -148,7 +148,7 @@ cat> /etc/v2ray/none.json << END
         "wsSettings": {
           "path": "/v2ray",
           "headers": {
-            "Host": "$domain"
+            "Host": "bug.com"
           }
          },
         "quicSettings": {},
@@ -164,7 +164,7 @@ cat> /etc/v2ray/none.json << END
           "tls"
         ]
       },
-      "domain": "bug.com"
+      "domain": "$domain"
     }
   ],
   "outbounds": [
@@ -332,7 +332,7 @@ cat> /etc/v2ray/vnone.json << END
         "wsSettings": {
           "path": "/v2ray",
           "headers": {
-            "Host": "$domain"
+            "Host": "bug.com"
           }
          },
         "quicSettings": {},
@@ -348,7 +348,7 @@ cat> /etc/v2ray/vnone.json << END
           "tls"
         ]
       },
-      "domain": "bug.com"
+      "domain": "$domain"
     }
   ],
   "outbounds": [
