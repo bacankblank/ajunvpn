@@ -59,14 +59,14 @@ cat>/etc/v2ray/$user-none.json<<EOF
       {
       "v": "2",
       "ps": "${user}",
-      "add": "${domain}",
+      "add": "bug.com",
       "port": "${none}",
       "id": "${uuid}",
       "aid": "2",
       "net": "ws",
       "path": "/v2ray",
       "type": "none",
-      "host": "bug.com",
+      "host": "${domain}",
       "tls": "none"
 }
 EOF
