@@ -5,7 +5,7 @@
    >>> Service & Port
    - OpenSSH                 : 22
    - OpenVPN                 : TCP 1194, UDP 2200, SSL 442
-   - Stunnel4                : 443, 777
+   - Stunnel4                : 443, 777, 222
    - Dropbear                : 109, 143
    - Squid Proxy             : 3128, 8080 (limit to IP Server)
    - Badvpn                  : 7100, 7200, 7300
