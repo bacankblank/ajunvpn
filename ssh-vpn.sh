@@ -217,6 +217,16 @@ cat key.pem cert.pem >> /etc/stunnel/stunnel.pem
 sed -i 's/ENABLED=0/ENABLED=1/g' /etc/default/stunnel4
 /etc/init.d/stunnel4 restart
 
+cd
+#install sslh
+apt-get install sslh -y
+
+#konfigurasi
+#port 443 to 77 and 777
+wget -O /etc/default/sslh "https://raw.githubusercontent.com/bacankblank/ajunvpn/main/sslh.conf"
+service sslh restart
+
+
 #install badvpncdn
 wget https://github.com/ambrop72/badvpn/archive/master.zip
 unzip master.zip
