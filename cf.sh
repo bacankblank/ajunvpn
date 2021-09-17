@@ -15,7 +15,7 @@ fi
 apt install jq curl -y
 DOMAIN=ajunvpn.group
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-SUB_DOMAIN=${sub}sc.ajunvpn.group
+SUB_DOMAIN=${sub}.ajunvpn.group
 CF_ID=bacank.septiawan3@gmail.com
 CF_KEY=c6c16fe728bf8935378e7b27d65a54e0ec0d9
 set -euo pipefail
