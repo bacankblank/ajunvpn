@@ -79,13 +79,13 @@ systemctl restart v2ray@none
 service cron restart
 clear
 echo -e ""
-echo -e "=============-VMESS-============="
+echo -e "==============-VMESS-=============="
 echo -e "Remarks        : ${user}"
 echo -e "Domain         : ${domain}"
-echo -e "ISP                : ${ISP}"
-echo -e "City               : ${City}"
+echo -e "ISP            : ${ISP}"
+echo -e "City           : ${City}"
 echo -e "============-Main Port-============"
-echo -e "Port TLS            : ${tls}"
+echo -e "Port TLS       : ${tls}"
 echo -e "Port none TLS  : ${none}"
 echo -e "================================="
 echo -e "ID             : ${uuid}"
