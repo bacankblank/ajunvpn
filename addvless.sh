@@ -35,7 +35,7 @@ read -p "Expired (days): " masaaktif
 exp=`date -d "$masaaktif days" +"%Y-%m-%d"`
 sed -i '#tls$/a\### '"$user $exp"'\
 },{"id": "'""$uuid""'","email": "'""$user""'"' /etc/v2ray/vless.json
-vlesslink1="vless://${uuid}@${domain}:443?path=/v2ray&security=tls&encryption=none&type=ws#${user}"
+vlesslink1="vless://${uuid}@${domain}:443?path=/vless&security=tls&encryption=none&type=ws#${user}"
 systemctl restart v2ray@vless
 clear
 echo -e ""
@@ -46,7 +46,7 @@ echo -e "port TLS       : 443"
 echo -e "id             : ${uuid}"
 echo -e "Encryption     : none"
 echo -e "network        : ws"
-echo -e "path           : /v2ray"
+echo -e "path           : /vless"
 echo -e "================================="
 echo -e "link TLS       : ${vlesslink1}"
 echo -e "================================="
