@@ -33,7 +33,7 @@ until [[ $user =~ ^[a-zA-Z0-9_]+$ && ${CLIENT_EXISTS} == '0' ]]; do
 uuid=$(cat /proc/sys/kernel/random/uuid)
 read -p "Expired (days): " masaaktif
 exp=`date -d "$masaaktif days" +"%Y-%m-%d"`
-sed -i '/443$/a\### '"$user $exp"'\
+sed -i '#tls$/a\### '"$user $exp"'\
 },{"id": "'""$uuid""'","email": "'""$user""'"' /etc/v2ray/vless.json
 vlesslink1="vless://${uuid}@${domain}:443?path=/v2ray&security=tls&encryption=none&type=ws#${user}"
 systemctl restart v2ray@vless
