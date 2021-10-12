@@ -20,7 +20,6 @@ else
 domain=$IP
 fi
 tls="$(cat ~/log-install.txt | grep -w "Vless TLS" | cut -d: -f2|sed 's/ //g')"
-none="$(cat ~/log-install.txt | grep -w "Vless None TLS" | cut -d: -f2|sed 's/ //g')"
 until [[ $user =~ ^[a-zA-Z0-9_]+$ && ${CLIENT_EXISTS} == '0' ]]; do
 		read -rp "User: " -e user
 		CLIENT_EXISTS=$(grep -w $user /etc/v2ray/vless.json | wc -l)
@@ -38,14 +37,12 @@ sed -i '/443$/a\### '"$user $exp"'\
 },{"id": "'""$uuid""'","email": "'""$user""'"' /etc/v2ray/vless.json
 vlesslink1="vless://${uuid}@${domain}:443?path=/v2ray&security=tls&encryption=none&type=ws#${user}"
 systemctl restart v2ray@vless
-systemctl restart v2ray@vnone
 clear
 echo -e ""
 echo -e "==========-V2RAY/VLESS-=========="
 echo -e "Remarks        : ${user}"
 echo -e "Domain         : ${domain}"
 echo -e "port TLS       : 443"
-echo -e "port none TLS  : $none"
 echo -e "id             : ${uuid}"
 echo -e "Encryption     : none"
 echo -e "network        : ws"
