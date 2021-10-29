@@ -44,11 +44,6 @@ wget https://raw.githubusercontent.com/bacankblank/ajunvpn/main/ipsec.sh && chmo
 wget https://raw.githubusercontent.com/bacankblank/ajunvpn/main/set-br.sh && chmod +x set-br.sh && ./set-br.sh
 
 rm -f /root/ssh-vpn.sh
-rm -f /root/sstp.sh
-rm -f /root/wg.sh
-rm -f /root/ss.sh
-rm -f /root/ssr.sh
-rm -f /root/ins-vt.sh
 rm -f /root/ipsec.sh
 rm -f /root/set-br.sh
 cat <<EOF> /etc/systemd/system/autosett.service
