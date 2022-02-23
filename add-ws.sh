@@ -47,7 +47,7 @@ cat>/etc/v2ray/$user-tls.json<<EOF
       "add": "${domain}",
       "port": "${tls}",
       "id": "${uuid}",
-      "aid": "2",
+      "aid": "0",
       "net": "ws",
       "path": "/v2ray",
       "type": "none",
@@ -62,7 +62,7 @@ cat>/etc/v2ray/$user-none.json<<EOF
       "add": "bug.com",
       "port": "${none}",
       "id": "${uuid}",
-      "aid": "2",
+      "aid": "0",
       "net": "ws",
       "path": "/v2ray",
       "type": "none",
@@ -89,7 +89,7 @@ echo -e "Port TLS       : ${tls}"
 echo -e "Port none TLS  : ${none}"
 echo -e "==================================="
 echo -e "ID             : ${uuid}"
-echo -e "AlterId        : 2"
+echo -e "AlterId        : 0"
 echo -e "Security       : auto"
 echo -e "Network        : ws"
 echo -e "Path           : /v2ray"
